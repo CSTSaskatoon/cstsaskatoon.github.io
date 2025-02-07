@@ -16,6 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
       </nav>
     </div>
   </header>
+  // It won't reload the fucking app
 
   <RouterView />
 </template>
