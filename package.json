@@ -13,7 +13,8 @@
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "deploy" : "move && gh-pages -d dist",
+    "move": "cp index.html /public/404.html"
   },
   "dependencies": {
     "vue": "^3.5.13",
