@@ -1,9 +1,24 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+<div>
+  <h1>Welcome to the CST Saskatoon Group Portfolio page!</h1>
+</div>
 </template>
+
+<style scoped>
+
+div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+</style>
