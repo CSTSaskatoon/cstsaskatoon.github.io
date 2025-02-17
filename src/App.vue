@@ -3,16 +3,22 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
+  <div class="main-app">
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Home</RouterLink>
       </nav>
     </div>
-
   <RouterView />
+  </div>
 </template>
 
 <style scoped>
+
+.main-app {
+  display: flex;
+  align-items: flex-start;
+}
 
 nav {
   width: 100%;
@@ -34,8 +40,6 @@ nav a:first-of-type {
 .wrapper {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-
 }
 
 @media (min-width: 1024px) {

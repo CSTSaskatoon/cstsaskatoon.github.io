@@ -33,8 +33,10 @@ const props = defineProps({
 <style scoped>
 
 .card {
-  min-height: 300px;
-  min-width: 600px;
+  margin: 5px;
+  max-width: 600px;
+  justify-content: flex-start;
+  align-content: flex-start;
 }
 
 </style>
